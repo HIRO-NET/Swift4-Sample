@@ -126,6 +126,8 @@ class ViewController: UIViewController {
         img10sec.image = digi[imgTime.2]
         img1sec.image = digi[imgTime.3]
     }
+    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -157,6 +159,7 @@ class ViewController: UIViewController {
         
         return (ans10min, ans1min, ans10sec, ans1sec)
     }
+
 
 }
 
